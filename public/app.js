@@ -197,14 +197,6 @@ function build(data) {
   );
   $("#updated").textContent = `Listings gathered from venue websites on ${fmtDate.format(new Date(data.generated))}. Times are London time.`;
 
-  if (data.media) {
-    const fig = $("#sceneMedia");
-    fig.append(
-      el("iframe", { src: data.media.embed, title: data.media.caption, loading: "lazy", allow: "encrypted-media; picture-in-picture", allowfullscreen: "" }),
-      el("figcaption", { text: data.media.caption })
-    );
-  }
-
   buildRail();
   observe();
   refresh();
