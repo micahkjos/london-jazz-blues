@@ -175,6 +175,7 @@ main { position: relative; z-index: 1; }
   text-decoration: none;
   border-bottom: 1px solid var(--brass);
   padding-bottom: 6px;
+  margin-top: 40px;
 }
 .scroll-cue span { animation: bob 2s ease-in-out infinite; }
 @keyframes bob { 50% { transform: translateY(5px); } }
