@@ -133,7 +133,7 @@ function gigPanel(ev, now) {
       "p",
       { class: "gig__where" },
       el("b", { text: ev.venue }),
-      el("span", { text: ` — ${ev.area}${ev.address ? `, ${ev.address}` : ""}` })
+      el("span", { text: ` · ${ev.area}${ev.address ? `, ${ev.address}` : ""}` })
     ),
     ev.blurb ? el("p", { class: "gig__blurb", text: ev.blurb }) : null,
     el(
@@ -168,6 +168,7 @@ function build(data) {
   const events = data.events
     .filter((e) => new Date(e.start) > now)
     .sort((a, b) => new Date(a.start) - new Date(b.start));
+  for (const e of events) e.artist = e.artist.replaceAll(" — ", " · ");
 
   const listings = $("#listings");
   const byDay = new Map();
