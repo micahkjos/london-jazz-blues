@@ -9,6 +9,7 @@ public/images so the site never depends on a venue's hotlink rules.
 
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import urllib.request
@@ -81,8 +82,15 @@ def main(dirs: list[str]) -> None:
         if local and g.get("image_kind") == "venue":
             venue_fallback.setdefault(g["venue"], local)
         events.append({**g, "image": local})
+    # 5-second performance clips cut by scripts/cut_clips.py, keyed by act
+    clips_file = ROOT / "scripts" / "clips.json"
+    clips = json.loads(clips_file.read_text()) if clips_file.exists() else {}
+    sources = clips.pop("_sources", {})
     for e in events:
         e["image"] = e["image"] or venue_fallback.get(e["venue"]) or "images/scene.jpg"
+        act = re.sub(r" \((Matinee|Evening)\)$", "", e["artist"])
+        if act in clips:
+            e["clip"], e["clip_source"] = clips[act], sources.get(act)
         e["id"] = hashlib.sha1(f'{e["venue"]}{e["start"]}{e["artist"]}'.encode()).hexdigest()[:8]
 
     media_file = ROOT / "scripts" / "media.json"

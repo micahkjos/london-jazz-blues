@@ -8,12 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=2">
+  <link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
   <div class="bg" aria-hidden="true">
     <div class="bg__layer is-on" id="bgA"></div>
     <div class="bg__layer" id="bgB"></div>
+    <video class="bg__video" id="bgVideo" muted loop playsinline preload="none"></video>
     <div class="bg__shade"></div>
     <div class="bg__grain"></div>
   </div>
@@ -21,6 +22,7 @@
   <header class="bar">
     <a class="bar__mark" href="#top">After&nbsp;Dark</a>
     <span class="bar__next" id="nextUp" aria-live="polite"></span>
+    <button class="bar__sound" id="soundBtn" type="button" aria-pressed="false">Sound off</button>
     <nav class="bar__nav">
       <a href="#scene">The Scene</a>
       <a href="#listings">Tonight</a>
@@ -58,11 +60,11 @@
         <p id="finaleText">The listings are collected from each venue's own website. Here's where to look next:</p>
         <ul class="venue-list" id="venueList"></ul>
         <p class="small" id="updated"></p>
-        <p class="small credits">Gig photos belong to the artists and venues and link back to their listings. Page photos from Wikimedia Commons: Ronnie Scott's sign by Tom Morris (CC BY-SA 3.0); Mark Edwards &amp; Ben Castle Quartet at the 606 Club by Mike Watts (CC BY-SA 2.0); Ronnie Scott's, 47 Frith Street by Jim Linwood (CC BY 2.0).</p>
+        <p class="small credits">Gig photos belong to the artists and venues and link back to their listings. The 5-second background clips are short excerpts of the artists' own performance videos on YouTube, each linked from its gig. Page photos from Wikimedia Commons: Ronnie Scott's sign by Tom Morris (CC BY-SA 3.0); Mark Edwards &amp; Ben Castle Quartet at the 606 Club by Mike Watts (CC BY-SA 2.0); Ronnie Scott's, 47 Frith Street by Jim Linwood (CC BY 2.0).</p>
       </div>
     </section>
   </main>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

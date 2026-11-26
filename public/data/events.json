@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:34:35.839860+00:00",
+ "generated": "2026-11-26T12:55:45.941200+00:00",
  "venues": [
   {
    "name": "Ronnie Scott's",
@@ -55,6 +55,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "92ac920a"
   },
   {
@@ -69,6 +71,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Improvising drummer Steve Noble, a fixture of London's free-jazz scene, in a trio with bassist Caius Williams and saxophonist Tom Challenger.",
+   "clip": "clips/steve-noble-caius-williams-tom-challenger.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=jLLIuT5da6M",
    "id": "00aadceb"
   },
   {
@@ -83,6 +87,8 @@
    "genre": "jazz",
    "blurb": "Jazz vocalist and trumpeter Marvin Muoneké sings seasonal classics and legendary jazz songs in the style of Nat King Cole and Sinatra.",
    "sold_out": true,
+   "clip": "clips/marvin-muoneke.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=r2B3jB2mRvM",
    "id": "e1738450"
   },
   {
@@ -97,6 +103,8 @@
    "genre": "jazz",
    "blurb": "Long-running British jazz-funk band Shakatak, known for numerous hit recordings, with Bill Sharpe on keys and Jill Saward on vocals.",
    "sold_out": true,
+   "clip": "clips/shakatak.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ofY1C80zUoQ",
    "id": "fcd1f909"
   },
   {
@@ -111,6 +119,8 @@
    "genre": "jazz",
    "blurb": "International jazz and soul vocalist Rachael Calladine brings her quintet and new album Soho Elegy, spanning swing, blues and soul.",
    "sold_out": false,
+   "clip": "clips/rachael-calladine-quintet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=TleD9GZx9fc",
    "id": "be7bf549"
   },
   {
@@ -125,6 +135,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Pianist Rob Barron's trio meets Hungarian guest Balázs Rábóczki, part of the 606's decade-long UK–Hungary jazz exchange.",
+   "clip": "clips/the-rob-barron-trio-with-balazs-raboczki.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=WzRTR6Z5lQA",
    "id": "bd0d4806"
   },
   {
@@ -140,6 +152,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "442d076d"
   },
   {
@@ -154,6 +168,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Guitarist Hannes Riepler leads a quartet of distinctive voices from the contemporary London jazz scene, bringing together original music that is lyrical, searching, and rhythmically alive.",
+   "clip": "clips/hannes-riepler-quartet-feat-alex-hitchcock.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=MgnWBy_rJBU",
    "id": "ed49133d"
   },
   {
@@ -169,6 +185,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/jd3-late-late-show-upstairs.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=_7irzLONBeo",
    "id": "02016d99"
   },
   {
@@ -184,6 +202,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/myele-manzanza-late-late-show.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=wsBxBnWT9Jw",
    "id": "71631b9f"
   },
   {
@@ -199,6 +219,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "6160e5b5"
   },
   {
@@ -213,6 +235,8 @@
    "genre": "soul",
    "blurb": "Young vocalist Emmanuel Ayeni blends gospel, jazz and contemporary R&B in a festive evening of jazz, soul and R&B.",
    "sold_out": false,
+   "clip": "clips/emmanuel-ayeni.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=0ltq-OBC_Rk",
    "id": "47b50baf"
   },
   {
@@ -227,6 +251,8 @@
    "genre": "jazz",
    "blurb": "Long-running British jazz-funk band Shakatak, known for numerous hit recordings, with Bill Sharpe on keys and Jill Saward on vocals.",
    "sold_out": true,
+   "clip": "clips/shakatak.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ofY1C80zUoQ",
    "id": "803aa9f1"
   },
   {
@@ -255,6 +281,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "A fantastic double bill featuring two of the most innovative and most distinctive groups in UK creative music.",
+   "clip": "clips/out-front-olie-brice-quartet-double-bill.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ZK2w1WsNGcU",
    "id": "924e58b4"
   },
   {
@@ -270,6 +298,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "8e414290"
   },
   {
@@ -284,6 +314,8 @@
    "genre": "soul",
    "blurb": "The house band and DJs mark fifty years of Stevie Wonder's masterpiece, from 9pm till 2.30am.",
    "sold_out": false,
+   "clip": "clips/celebrating-stevie-wonder-songs-in-the-key-of-life-at-50.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Oz4c9viaHVI",
    "id": "3cbc781f"
   },
   {
@@ -298,6 +330,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Session drummer Vince Dunn, whose credits run from Pharrell and Madonna to Cleo Laine and Courtney Pine, leads his own band.",
+   "clip": "clips/vince-dunn-the-medicine-band.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=58XXZLCTMJ8",
    "id": "c9eaec1d"
   },
   {
@@ -328,6 +362,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/creature-late-late-show.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=MvYvefE74Lg",
    "id": "eafe64a6"
   },
   {
@@ -342,6 +378,8 @@
    "genre": "jazz",
    "blurb": "Long-running British jazz-funk band Shakatak, known for numerous hit recordings, with Bill Sharpe on keys and Jill Saward on vocals.",
    "sold_out": false,
+   "clip": "clips/shakatak.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ofY1C80zUoQ",
    "id": "1ffe2db9"
   },
   {
@@ -356,6 +394,8 @@
    "genre": "soul",
    "blurb": "Pauline Henry, the voice of The Chimes and one of the UK's most powerful soul artists, performs hits including Heaven and 1-2-3.",
    "sold_out": false,
+   "clip": "clips/pauline-henry.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=sI0Zw-Ah8CY",
    "id": "ea468758"
   },
   {
@@ -371,6 +411,8 @@
    "blurb": "Billed by the Jazz Cafe as \"Japan's neo-soul master\", the guitarist plays a jazz-and-soul set.",
    "sold_out": true,
    "doors": true,
+   "clip": "clips/toshiki-soejima.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=KQWQEbvth8o",
    "id": "c99276df"
   },
   {
@@ -386,6 +428,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/caro.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=L0FCX4RqDnc",
    "id": "13389db0"
   },
   {
@@ -401,6 +445,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "c9af9164"
   },
   {
@@ -416,6 +462,8 @@
    "blurb": "Billed by the Jazz Cafe as \"Japan's neo-soul master\", the guitarist plays a jazz-and-soul set.",
    "sold_out": true,
    "doors": true,
+   "clip": "clips/toshiki-soejima.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=KQWQEbvth8o",
    "id": "964fdd7d"
   },
   {
@@ -430,6 +478,8 @@
    "genre": "jazz",
    "blurb": "Long-running British jazz-funk band Shakatak, known for numerous hit recordings, with Bill Sharpe on keys and Jill Saward on vocals.",
    "sold_out": true,
+   "clip": "clips/shakatak.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ofY1C80zUoQ",
    "id": "ef8547fe"
   },
   {
@@ -444,6 +494,8 @@
    "genre": "soul",
    "blurb": "Pauline Henry, the voice of The Chimes and one of the UK's most powerful soul artists, performs hits including Heaven and 1-2-3.",
    "sold_out": true,
+   "clip": "clips/pauline-henry.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=sI0Zw-Ah8CY",
    "id": "a1085572"
   },
   {
@@ -459,6 +511,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/caro.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=L0FCX4RqDnc",
    "id": "f6ce01bd"
   },
   {
@@ -474,6 +528,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/the-james-taylor-quartet-with-yvonne-yanney.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=OrK9P7bOkj4",
    "id": "72e9a56f"
   },
   {
@@ -488,6 +544,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "This performance marks the debut of a brand-new quintet, presenting new compositions and a new musical direction, born from Mark Kavuma’s record label Banger Factory records.",
+   "clip": "clips/mark-kavuma-quintet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=FX503b9h6c4",
    "id": "b8bca77c"
   },
   {
@@ -502,6 +560,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "For well over a decade now, Quentin Collins has had an enviable reputation as a lyrical and melodic trumpet player with a powerful sound and approach.",
+   "clip": "clips/quentin-collins-quintet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=F8r3nqjcLa4",
    "id": "700b7abd"
   },
   {
@@ -517,6 +577,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/energy-exchange-records-late-late-show-upstairs.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=QaYl43tx5lM",
    "id": "1cf07e3c"
   },
   {
@@ -576,6 +638,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "A classy and elegant performer with a sumptuous voice and winning delivery singer/actress Viviana Zarbo has developed an innovative repertoire from the Great American Songbook.",
+   "clip": "clips/viviana-zarbo.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Rva3Ypyfp8I",
    "id": "a51fe350"
   },
   {
@@ -591,6 +655,8 @@
    "blurb": "The singer the Jazz Cafe bills as a \"West Coast RnB star\".",
    "sold_out": false,
    "doors": true,
+   "clip": "clips/raquel-rodriguez.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=terrfQNMKd0",
    "id": "40a51ccc"
   },
   {
@@ -605,6 +671,8 @@
    "genre": "jazz",
    "blurb": "Grammy-winning American trumpeter and living jazz legend Eddie Henderson, whose career spans more than six decades, leads his long-standing quartet.",
    "sold_out": true,
+   "clip": "clips/eddie-henderson-quartet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=hTKyoGCOrBw",
    "id": "21af4f49"
   },
   {
@@ -620,6 +688,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/w3-funk-sessions.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=43eppP5xNMc",
    "id": "314f6be6"
   },
   {
@@ -650,6 +720,8 @@
    "blurb": "The singer the Jazz Cafe bills as a \"West Coast RnB star\".",
    "sold_out": false,
    "doors": true,
+   "clip": "clips/raquel-rodriguez.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=terrfQNMKd0",
    "id": "54316003"
   },
   {
@@ -664,6 +736,8 @@
    "genre": "blues",
    "blurb": "Running for 15 years: the house band plays blues to rock, and you can sit back or sign up at 7pm to join the jam.",
    "sold_out": false,
+   "clip": "clips/the-sunday-blues-jam.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=9zZqOLswYck",
    "id": "281d9750"
   },
   {
@@ -692,6 +766,8 @@
    "genre": "jazz",
    "blurb": "Saxophonist Lisa Grahame, 18 years with Jools Holland's Rhythm & Blues Orchestra, leads an evening of jazz, soul, funk and R&B.",
    "sold_out": false,
+   "clip": "clips/lisa-grahame-s-groove-squad.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=W13g9AFVB-w",
    "id": "083cb5a8"
   },
   {
@@ -706,6 +782,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "A vocalist whose duet with Sting earned a standing ovation, singing soul and jazz.",
+   "clip": "clips/joy-rose.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=KB-XTErbeyA",
    "id": "813649b3"
   },
   {
@@ -720,6 +798,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "The weekly Sunday jam, hosted in rotation by Nick Costley-White, Sean Gibbs, Rick Simpson and Riley Stone-Lonergan. Bring an instrument.",
+   "clip": "clips/vortex-jam-session.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=NEzU1zGNh3c",
    "id": "68092c27"
   },
   {
@@ -748,6 +828,8 @@
    "genre": "jazz",
    "blurb": "Grammy-winning American trumpeter and living jazz legend Eddie Henderson, whose career spans more than six decades, leads his long-standing quartet.",
    "sold_out": false,
+   "clip": "clips/eddie-henderson-quartet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=hTKyoGCOrBw",
    "id": "55785c6a"
   },
   {
@@ -762,6 +844,8 @@
    "genre": "jazz",
    "blurb": "Guitarist Nigel Price and tenor saxophonist Vasilis Xenopoulos play the Spice of Life's lunchtime jazz club.",
    "sold_out": false,
+   "clip": "clips/nigel-price-vasilis-xenopoulos.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Z9996jxcvLI",
    "id": "2efef174"
   },
   {
@@ -776,6 +860,8 @@
    "genre": "blues",
    "blurb": "\"One-World Bluesman\" Dove Jones leads a blues and jazz jam in the Backstage Cellar Bar.",
    "sold_out": false,
+   "clip": "clips/dove-jones-connection-blues-jazz-jam-party.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=3jyBJTXKwW8",
    "id": "1c4a3d58"
   },
   {
@@ -790,6 +876,8 @@
    "genre": "jazz",
    "blurb": "Trumpeter Sean Gibbs's 17-piece big band and vocalist Frida Touray perform their jazz EP Set Me Free, touched by Motown and blues.",
    "sold_out": false,
+   "clip": "clips/sean-gibbs-big-band-frida-touray.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Ez87QHP17B8",
    "id": "f42935a9"
   },
   {
@@ -804,6 +892,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Bristol saxophonist James Morton, who has played with Pee Wee Ellis, Fred Wesley and George Clinton, brings his funk-jazz Groove Den.",
+   "clip": "clips/james-morton-groove-den.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=mRpsFAe5BAo",
    "id": "0a24a5ed"
   },
   {
@@ -818,6 +908,8 @@
    "genre": "blues",
    "blurb": "Monday night blues and soul from the house band. Free entry all night.",
    "sold_out": false,
+   "clip": "clips/live-blues-soul-house-band.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=fD4d0jbOrXc",
    "id": "94176bb6"
   },
   {
@@ -832,6 +924,8 @@
    "genre": "blues",
    "blurb": "A live blues band putting on a show on a Monday night. Free entry all night.",
    "sold_out": false,
+   "clip": "clips/live-blues-soul-house-band.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=fD4d0jbOrXc",
    "id": "61c18773"
   },
   {
@@ -847,6 +941,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/ronnie-scott-s-jazz-jam.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Cs3nwtyNrjk",
    "id": "b40cf0d1"
   },
   {
@@ -861,6 +957,8 @@
    "genre": "jazz",
    "blurb": "A Jazz Noel: saxophonist Reiss Ellis Beckles's band with four-piece horn section plays classic Christmas jazz from the Ella and Sinatra songbook.",
    "sold_out": true,
+   "clip": "clips/reiss-ellis-beckles.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=cRc5LlfoEM0",
    "id": "8aebe78a"
   },
   {
@@ -875,6 +973,8 @@
    "genre": "soul",
    "blurb": "Ese & The Vooduu People play an electric blend of funk, soul, Afrobeat, jazz and rock'n'roll, championed by Iggy Pop and Jools Holland.",
    "sold_out": false,
+   "clip": "clips/ese-the-vooduu-people.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=ZAeIBrZ3OHM",
    "id": "38d070b2"
   },
   {
@@ -889,6 +989,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "A captivating young vocalist and theatre performer, Annie Majin is rapidly establishing herself as one to watch on the UK jazz scene!",
+   "clip": "clips/annie-majin.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=0Pyi9dCq5pA",
    "id": "e1068b83"
   },
   {
@@ -903,6 +1005,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Fabienne Ambuehl is known for her vibrant contemporary jazz, weaving together elements of poetry and storytelling.",
+   "clip": "clips/fabienne-ambuehl-quartet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=DbeIdaSYxsk",
    "id": "821ad4e3"
   },
   {
@@ -918,6 +1022,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/klara-devlin-with-tomorrow-s-warriors-late-late-show-upstair.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=8i5MV87-FHM",
    "id": "a220564c"
   },
   {
@@ -933,6 +1039,8 @@
    "blurb": "The trumpeter the Jazz Cafe bills as \"the problem child of jazz\".",
    "sold_out": true,
    "doors": true,
+   "clip": "clips/daoud.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=e4tgbTZNxM4",
    "id": "0b641b77"
   },
   {
@@ -947,6 +1055,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Joe Boyle’s Union present “Welcome to the New World”, the debut album from British Double Bassist Joe Boyle.",
+   "clip": "clips/joe-boyles-union-album-launch.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=zNVPdYu-5co",
    "id": "cac39332"
   },
   {
@@ -961,6 +1071,8 @@
    "genre": "soul",
    "blurb": "Swiss-Polish singer-songwriter Emilia Anastazja fuses soul, jazz and R&B, inspired by Sade, Mary J. Blige and Cleo Sol.",
    "sold_out": false,
+   "clip": "clips/emilia-anastazja-enkay.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=WItRIWA_Pks",
    "id": "33607e87"
   },
   {
@@ -975,6 +1087,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Two guitarists from the 606's 50th-anniversary \"Guitarmaggedon\" night, Rob Luft and Loose Tubes founder John Parricelli, reunite.",
+   "clip": "clips/rob-luft-john-parricelli-quartet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=IztN2U5OreY",
    "id": "aeed4ac3"
   },
   {
@@ -989,6 +1103,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Saxophone, electric mandolin and drums: three improvisers who first played together in the Chris Burn Ensemble in the 1990s.",
+   "clip": "clips/john-butcher-phil-durrant-mark-wastell.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Fj3a3wP5bvU",
    "id": "29b0b853"
   },
   {
@@ -1004,6 +1120,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/vocal-jazz-jam-late-late-show-upstairs.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Yk63kvMQEzM",
    "id": "36641e14"
   },
   {
@@ -1019,6 +1137,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/mark-kavuma-s-banger-factory-late-late-show.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=Go3QawzpuNU",
    "id": "d5996cc7"
   },
   {
@@ -1034,6 +1154,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/a-georgia-cecile-kinda-christmas.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=-Bw-8fF17Tk",
    "id": "646112ce"
   },
   {
@@ -1048,6 +1170,8 @@
    "genre": "blues",
    "blurb": "Tom Seals, hailed by The Express as the UK's finest blues and boogie sensation, brings virtuoso piano and distinctive vocals.",
    "sold_out": true,
+   "clip": "clips/tom-seals.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=c7zj4aYHWuU",
    "id": "e28c1210"
   },
   {
@@ -1062,6 +1186,8 @@
    "genre": "jazz",
    "blurb": "Take the Coltrane: saxophonist Dave O'Higgins's quartet celebrates John Coltrane's centenary, from 50s hard bop to his later spiritual period.",
    "sold_out": false,
+   "clip": "clips/dave-o-higgins-quartet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=1D_UIzlgYXQ",
    "id": "780767a8"
   },
   {
@@ -1076,6 +1202,8 @@
    "genre": "soul",
    "blurb": "IMC's 10-piece vocal collective and band present a Christmas show of R&B and soul, from Stevie Wonder to John Legend.",
    "sold_out": true,
+   "clip": "clips/independent-musicians-collective-imc.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=PaIjt2SzG4Q",
    "id": "bec5ede5"
   },
   {
@@ -1105,6 +1233,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/a-georgia-cecile-kinda-christmas.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=-Bw-8fF17Tk",
    "id": "9dd7e00c"
   },
   {
@@ -1119,6 +1249,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Guitarist and composer Karim Saber brings together a group of acclaimed London based musicians for a night of original music.",
+   "clip": "clips/karim-saber-quintet.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=cak6eDIs_XU",
    "id": "19b17ece"
   },
   {
@@ -1134,6 +1266,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/cosmic-fusion-late-late-show-upstairs.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=JmB8zt7qaTE",
    "id": "886d707a"
   },
   {
@@ -1149,6 +1283,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/patterns-late-late-show.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=VJzL_gjghoQ",
    "id": "964ab528"
   }
  ]

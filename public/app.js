@@ -73,6 +73,40 @@ function setBackground(src) {
   img.src = src;
 }
 
+/* ---------- background clip ---------- */
+
+// Each gig with a clip loops 5 seconds of the act playing behind its panel.
+// Browsers only autoplay muted video, so sound waits for the Sound button.
+const video = $("#bgVideo");
+const soundBtn = $("#soundBtn");
+let soundOn = false;
+let currentClip = null;
+
+function setClip(src) {
+  if (src === currentClip) return;
+  currentClip = src;
+  video.classList.remove("is-on");
+  if (!src) {
+    video.pause();
+    return;
+  }
+  video.src = src;
+  video.muted = !soundOn;
+  video.oncanplay = () => {
+    if (currentClip !== src) return;
+    video.play().then(() => video.classList.add("is-on")).catch(() => {});
+  };
+  video.load();
+}
+
+soundBtn.addEventListener("click", () => {
+  soundOn = !soundOn;
+  video.muted = !soundOn;
+  if (soundOn && currentClip) video.play().catch(() => {});
+  soundBtn.setAttribute("aria-pressed", String(soundOn));
+  soundBtn.textContent = soundOn ? "Sound on" : "Sound off";
+});
+
 /* ---------- build ---------- */
 
 function gigPanel(ev, now) {
@@ -83,6 +117,7 @@ function gigPanel(ev, now) {
     "data-bg": ev.image,
     "data-start": start.getTime(),
     "data-doors": ev.doors ? "1" : null,
+    "data-clip": ev.clip || null,
     "aria-label": `${ev.artist} at ${ev.venue}`,
   });
   const card = el(
@@ -107,7 +142,8 @@ function gigPanel(ev, now) {
       { class: "gig__actions" },
       el("a", { class: "btn", href: ev.url, target: "_blank", rel: "noopener" }, "Go to website ", el("span", { "aria-hidden": "true", text: "→" })),
       el("span", { class: "tag", text: ev.genre }),
-      ev.sold_out ? el("span", { class: "tag tag--sold", text: "Sold out" }) : null
+      ev.sold_out ? el("span", { class: "tag tag--sold", text: "Sold out" }) : null,
+      ev.clip_source ? el("a", { class: "clip-credit", href: ev.clip_source, target: "_blank", rel: "noopener", text: "Clip: watch the full video ↗" }) : null
     )
   );
   section.append(card);
@@ -198,6 +234,7 @@ function observe() {
         if (!entry.isIntersecting) continue;
         const p = entry.target;
         setBackground(p.dataset.bg);
+        setClip(p.dataset.clip || null);
         // warm the next two backgrounds so the fade never waits on the network
         let n = p.nextElementSibling;
         for (let i = 0; i < 2 && n; i++, n = n.nextElementSibling) preload(n.dataset.bg);
