@@ -7,7 +7,6 @@ const CHECK_EVERY_MS = 15000;
 const fmtTime = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, hour: "numeric", minute: "2-digit", hour12: true });
 const fmtDay = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, weekday: "long" });
 const fmtDate = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, day: "numeric", month: "long" });
-const fmtShort = new Intl.DateTimeFormat("en-GB", { timeZone: TZ, weekday: "short", day: "numeric", month: "short" });
 const dayKey = (d) => new Intl.DateTimeFormat("en-CA", { timeZone: TZ }).format(d); // YYYY-MM-DD
 
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -180,14 +179,6 @@ function build(data) {
   for (const [k, list] of byDay) {
     listings.append(dayPanel(k, list[0], list.length));
     for (const ev of list) listings.append(gigPanel(ev, now));
-  }
-
-  if (events.length) {
-    const first = new Date(events[0].start);
-    const last = new Date(events[events.length - 1].start);
-    $("#heroRange").textContent = `${fmtShort.format(first)} – ${fmtShort.format(last)}`;
-  } else {
-    $("#heroRange").textContent = "This week";
   }
 
   $("#venueList").append(
