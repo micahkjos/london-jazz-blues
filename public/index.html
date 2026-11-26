@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>After Dark — Jazz &amp; Blues in London This Week</title>
+  <meta name="description" content="A live, scrolling timeline of the jazz and blues gigs happening across London this week, from Soho cellars to Dalston back rooms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg" aria-hidden="true">
+    <div class="bg__layer is-on" id="bgA"></div>
+    <div class="bg__layer" id="bgB"></div>
+    <div class="bg__shade"></div>
+    <div class="bg__grain"></div>
+  </div>
+
+  <header class="bar">
+    <a class="bar__mark" href="#top">After&nbsp;Dark</a>
+    <span class="bar__next" id="nextUp" aria-live="polite"></span>
+    <nav class="bar__nav">
+      <a href="#scene">The Scene</a>
+      <a href="#listings">Tonight</a>
+      <a href="#venues">Venues</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="panel hero" id="top" data-bg="images/hero.jpg">
+      <div class="hero__inner">
+        <p class="eyebrow">London &middot; <span id="heroRange"></span></p>
+        <h1>After Dark</h1>
+        <p class="hero__lede">Every jazz and blues gig in the city this week, in the order it happens. Scroll down to move through the week. Each gig drops off the page once its first note is played.</p>
+        <a class="scroll-cue" href="#scene">Start the week <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+
+    <section class="panel essay" id="scene" data-bg="images/scene.jpg">
+      <article class="essay__card">
+        <p class="eyebrow">The Scene</p>
+        <h2>Who gets to call it jazz?</h2>
+        <p>London's jazz story is usually told through a handful of rooms. There's Ronnie Scott's, opened in a Soho basement in 1959, where American stars were billed as the real thing and local players as their support. There's the 606 in Chelsea, open since 1976, which describes itself as <em>"Jazz :: Latin :: Soul &amp; More"</em> because one word has never been enough.</p>
+        <p>The words on the posters have always shaped who is seen. The British blues boom of the 1960s turned Black American music into a white British rock export, and the word "authentic" did a lot of work on the posters. More recently, the press label <em>"the new London jazz scene"</em> has grouped together musicians from the city's Caribbean and West African communities. Many of them came through Tomorrow's Warriors, the education charity that has been training young players since 1991. Ezra Collective's 2023 Mercury Prize, the first ever won by a jazz act, changed the headlines more than it changed who books the rooms.</p>
+        <p>The listings below are the scene as it describes itself this week, in its own words and pictures. Look at how each venue names what it sells: "jazz," "blues," "soul," "tribute," "late late show." Look too at whose faces fill the background as you scroll.</p>
+        <figure class="essay__media" id="sceneMedia"></figure>
+      </article>
+    </section>
+
+    <div id="listings"></div>
+
+    <section class="panel finale" id="venues" data-bg="images/finale.jpg">
+      <div class="finale__card">
+        <p class="eyebrow">That's the week</p>
+        <h2 id="finaleTitle">Nothing left tonight?</h2>
+        <p id="finaleText">The listings are collected from each venue's own website. Here's where to look next:</p>
+        <ul class="venue-list" id="venueList"></ul>
+        <p class="small" id="updated"></p>
+        <p class="small credits">Gig photos belong to the artists and venues and link back to their listings. Page photos from Wikimedia Commons: Ronnie Scott's sign by Tom Morris (CC BY-SA 3.0); Mark Edwards &amp; Ben Castle Quartet at the 606 Club by Mike Watts (CC BY-SA 2.0); Ronnie Scott's, 47 Frith Street by Jim Linwood (CC BY 2.0).</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
