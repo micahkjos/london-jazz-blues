@@ -104,7 +104,7 @@ soundBtn.addEventListener("click", () => {
   video.muted = !soundOn;
   if (soundOn && currentClip) video.play().catch(() => {});
   soundBtn.setAttribute("aria-pressed", String(soundOn));
-  soundBtn.textContent = soundOn ? "Sound on" : "Sound off";
+  soundBtn.setAttribute("aria-label", soundOn ? "Mute" : "Unmute");
 });
 
 /* ---------- build ---------- */
