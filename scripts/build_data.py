@@ -24,8 +24,7 @@ VENUES = [
     ("Ronnie Scott's", "Soho", "https://www.ronniescotts.co.uk/"),
     ("606 Club", "Chelsea", "https://www.606club.co.uk/events/"),
     ("Vortex Jazz Club", "Dalston", "https://www.vortexjazz.co.uk/events/"),
-    ("Cafe OTO", "Dalston", "https://www.cafeoto.co.uk/events/"),
-    ("Pizza Express Live", "Soho, Holborn & Chelsea", "https://www.pizzaexpresslive.com/whats-on"),
+    ("Pizza Express Live", "Soho, Holborn, Chelsea & Leicester Square", "https://www.pizzaexpresslive.com/whats-on"),
     ("Spice of Life", "Soho", "https://www.spiceoflifesoho.com/"),
     ("The Blues Kitchen", "Shoreditch, Camden & Brixton", "https://theblueskitchen.com/"),
     ("The Jazz Cafe", "Camden", "https://thejazzcafe.com/"),
@@ -39,11 +38,14 @@ def fetch_image(url: str) -> str | None:
         return f"images/{name}"
     tmp = dest.with_suffix(".download")
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "image/*"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            if not r.headers.get("Content-Type", "").startswith("image/"):
-                return None
-            tmp.write_bytes(r.read())
+        if url.startswith("/"):  # a file already saved during scraping
+            tmp.write_bytes(Path(url).read_bytes())
+        else:
+            req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "image/*"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                if not r.headers.get("Content-Type", "").startswith("image/"):
+                    return None
+                tmp.write_bytes(r.read())
         subprocess.run(
             ["sips", "-s", "format", "jpeg", "-s", "formatOptions", "78", "-Z", "1800", str(tmp), "--out", str(dest)],
             check=True, capture_output=True,

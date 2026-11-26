@@ -23,8 +23,9 @@ const el = (tag, attrs = {}, ...kids) => {
   return node;
 };
 
-function timeLabel(start) {
-  return fmtTime.format(start).replace(":00", "").replace(" ", "").toLowerCase();
+function timeLabel(start, doors) {
+  const t = fmtTime.format(start).replace(":00", "").replace(" ", "").toLowerCase();
+  return doors ? `doors ${t}` : t;
 }
 
 function dayLabel(start, now) {
@@ -40,7 +41,7 @@ function countdown(start, now) {
   if (mins < 60) return `Starts in ${mins} min`;
   const h = Math.floor(mins / 60);
   if (h < 24) return `In ${h}h ${String(mins % 60).padStart(2, "0")}m`;
-  return fmtShort.format(start);
+  return fmtDate.format(start); // the day label already says which day; give the date
 }
 
 /* ---------- background crossfade ---------- */
@@ -81,6 +82,7 @@ function gigPanel(ev, now) {
     id: `gig-${ev.id}`,
     "data-bg": ev.image,
     "data-start": start.getTime(),
+    "data-doors": ev.doors ? "1" : null,
     "aria-label": `${ev.artist} at ${ev.venue}`,
   });
   const card = el(
@@ -89,7 +91,7 @@ function gigPanel(ev, now) {
     el(
       "div",
       { class: "gig__when" },
-      el("span", { class: "gig__time", text: `${dayLabel(start, now)} · ${timeLabel(start)}` }),
+      el("span", { class: "gig__time", text: `${dayLabel(start, now)} · ${timeLabel(start, ev.doors)}` }),
       el("span", { class: "gig__countdown", text: countdown(start, now) })
     ),
     el("h3", { text: ev.artist }),
@@ -226,7 +228,7 @@ function refresh() {
     const cd = $(".gig__countdown", g);
     cd.textContent = countdown(start, now);
     cd.classList.toggle("is-soon", start - now < 3600e3);
-    $(".gig__time", g).textContent = `${dayLabel(start, now)} · ${timeLabel(start)}`;
+    $(".gig__time", g).textContent = `${dayLabel(start, now)} · ${timeLabel(start, g.dataset.doors === "1")}`;
   }
 
   const next = document.querySelector(".gig:not(.is-gone)");
