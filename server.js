@@ -35,8 +35,8 @@ http
         return;
       }
       const ext = path.extname(file).toLowerCase();
-      // The listings change daily; images never do.
-      const cache = ext === ".json" || ext === ".html" ? "no-cache" : "public, max-age=604800";
+      // Code and listings revalidate on every load; gig photos never change.
+      const cache = ext.match(/\.(jpe?g|png|webp|svg|ico)$/) ? "public, max-age=604800" : "no-cache";
       res.writeHead(200, { "Content-Type": TYPES[ext] || "application/octet-stream", "Cache-Control": cache });
       res.end(body);
     });
