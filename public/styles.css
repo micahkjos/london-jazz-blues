@@ -154,6 +154,8 @@ main { position: relative; z-index: 1; }
   line-height: 0.9;
   letter-spacing: -0.02em;
 }
+.hero { position: relative; }
+.hero__credit { position: absolute; right: clamp(20px, 5vw, 64px); bottom: 28px; }
 .hero__lede { max-width: 560px; font-size: clamp(17px, 1.6vw, 20px); color: var(--ink-dim); margin: 28px 0 36px; }
 .scroll-cue {
   display: inline-flex;
