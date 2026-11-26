@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T12:55:45.941200+00:00",
+ "generated": "2026-11-26T13:03:41.532955+00:00",
  "venues": [
   {
    "name": "Ronnie Scott's",
@@ -347,6 +347,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/viva-cuba-late-late-show-upstairs.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=fmR6lI7IHlg",
    "id": "0ca4ff7a"
   },
   {
@@ -594,6 +596,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/ken-hoon-late-late-show.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=GJ1p6g7WcqA",
    "id": "6cf4ab11"
   },
   {
@@ -624,6 +628,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/ronnie-scott-s-all-stars-if-these-walls-could-talk.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=kZlI_JPDoxY",
    "id": "f4bbd114"
   },
   {
@@ -705,6 +711,8 @@
    "venue": "Ronnie Scott's",
    "area": "Soho",
    "address": "47 Frith Street, W1D 4HT",
+   "clip": "clips/ronnie-scott-s-all-stars-if-these-walls-could-talk.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=kZlI_JPDoxY",
    "id": "03b5b9e8"
   },
   {
@@ -1218,6 +1226,8 @@
    "genre": "jazz",
    "sold_out": false,
    "blurb": "Neil Angilley is a brilliant pianist, equally at home playing jazz, Latin or classical.",
+   "clip": "clips/neil-angilley-trio.mp4",
+   "clip_source": "https://www.youtube.com/watch?v=uswENc4a2j8",
    "id": "68625513"
   },
   {

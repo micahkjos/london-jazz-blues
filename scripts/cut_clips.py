@@ -20,6 +20,7 @@ def cut(r):
     dest = OUT / f"{slug(r['artist'])}.mp4"
     if not dest.exists():
         subprocess.run(["yt-dlp", "-q", "--no-warnings", "--ffmpeg-location", FF,
+                        "--extractor-args", "youtube:player_client=tv,android,mweb",
                         "-f", "bv*[height<=720][ext=mp4]+ba[ext=m4a]/b[height<=720]/b",
                         "--download-sections", f"*{start}-{start+6}", "--force-keyframes-at-cuts",
                         "-o", str(raw), f"https://www.youtube.com/watch?v={r['id']}"],
